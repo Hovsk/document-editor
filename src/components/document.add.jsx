@@ -7,6 +7,7 @@ class DocumentAdd extends Component{
 
     state = {
     };
+
     async handleSave() {
         //console.log(this.editorInstance);
         const savedData = await this.editorInstance.save();
