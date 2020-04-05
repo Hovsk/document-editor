@@ -13,7 +13,6 @@ class DocumentAdd extends Component{
         console.log(savedData);
 
         API.post('/documents', {
-            title: 'someTest',
             body: JSON.stringify(savedData.blocks)
         });
 
