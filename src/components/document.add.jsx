@@ -33,7 +33,7 @@ class DocumentAdd extends Component{
                 <div className="document" style={style}>
                     <EditorJs instanceRef={instance => this.editorInstance = instance} tools = {EDITOR_JS_TOOLS}/>
                 </div>
-                <button onClick={()=>this.handleSave()} className="btn btn-primary float-right">
+                <button onClick={()=>this.handleSave()} className="btn btn-lg btn-primary float-right">
                     save
                 </button>
             </div>
